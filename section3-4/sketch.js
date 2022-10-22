@@ -1,6 +1,6 @@
 // テキスト「インタラクティブなアニメーション」
 let x, y, vx, vy;
-let grabbed; // 円をつかんでいるかどうかを記憶するために使う変数
+let grabbed; // 円をつかんでいるかどうかを記憶するために使う変数　マウスが円のとこにあるかということ？
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
@@ -15,7 +15,7 @@ function setup(){
 function draw(){
   background(160, 192, 255);
   ellipse(x, y, 30);
-  if(!grabbed){ // つかんでいないときだけアニメーションさせる
+  if(!grabbed){ // つかんでいないときだけアニメーションさせる !何
     x += vx;
     y += vy;
     if(x < 0 || x > width){ vx = -0.8 * vx; }
@@ -31,7 +31,7 @@ function keyPressed(){
     y = height / 2;
     vx = 0;
     vy = 0;
-    grabbed = false;
+    grabbed = false;　//何
   }
 }
 
