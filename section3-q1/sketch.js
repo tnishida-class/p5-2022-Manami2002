@@ -25,6 +25,7 @@ console.log(count);
     // BLANK[1]
  let size =count;
   ellipse(width / 2, height / 2, size);
+  
   if(keyIsDown(UP_ARROW)){
     count=count+10
     }
