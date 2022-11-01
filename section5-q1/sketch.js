@@ -4,13 +4,13 @@
 function setup(){
   createCanvas(400, 400);
   background(255);
-  balloon("I love keyakizaka46", 60, 70,124);
+  balloon("I love keyakizaka46", 70, 70, 124);
 }
 
 function balloon(t, x, y,c){
   let w = textWidth(t);
   let h = textAscent() + textDescent();
-  let p = 2;
+  let p = 5;
   fill(c);
   rect(x, y, w + p * 2, h + p * 2);
 
