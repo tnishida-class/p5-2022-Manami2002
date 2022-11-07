@@ -12,9 +12,9 @@ function balloon(t, x, y,c){
   let h = textAscent() + textDescent();
   let p = 5;
   fill(c);
-  rect(x, y, w + p * 2, h + p * 2);
+  rect(x, y, w + p * 3, h + p * 3);
 
   fill(255);
-  text(t, x+p, h + y+p);
+  text(t+5, x+p, h + y+p);
 }
 
