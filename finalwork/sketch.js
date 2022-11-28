@@ -19,8 +19,8 @@ function Ball() {
   vx = 0;
 }
 function Box() {
-  a = random(150, 300);
-  b = random(150, 200);
+  a = random(30, 300);
+  b = random(100, 200);
 
 }
 
